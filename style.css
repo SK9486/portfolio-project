@@ -399,13 +399,15 @@ nav i {
 }
 .batch-section {
   margin-left: 20px;
+  text-align: center;
 }
 .batch-section h3 {
   background-color: var(--dark-muted);
+  display: inline;
   color: var(--dark-bg);
+  padding: 5px;
   font-weight: 600;
   font-size: medium;
-  margin-bottom: 10px;
 }
 .batch-imgs {
   display: flex;
@@ -413,6 +415,7 @@ nav i {
   justify-content: center;
   align-items: center;
   gap: 10px;
+  margin-top: 20px;
 }
 .batch-imgs img:hover {
   box-shadow:
@@ -455,7 +458,7 @@ nav i {
   background-color: var(--dark-accent);
   color: var(--dark-bg);
 }
-.up-icon {
+#up-icon {
   position: relative;
   bottom: 5px;
   left: 50%;
@@ -486,4 +489,124 @@ footer span {
   color: var(--dark-text);
   padding: 2px;
   font-weight: 700;
+}
+
+/* Tablet - 481px and up */
+@media (min-width: 481px) and (max-width: 768px) {
+  .fira-code-h1,
+  h1 {
+    font-size: 32px;
+  }
+
+  .fira-code-h2,
+  h2 {
+    font-size: 26px;
+  }
+
+  .source-code-pro-para,
+  h3 {
+    font-size: 18px;
+  }
+
+  .source-code-pro-small-para,
+  p,
+  h4 {
+    font-size: 16px;
+  }
+
+  .fira-code-button,
+  a,
+  button {
+    font-size: 16px;
+  }
+  #menu-btn {
+    display: none;
+  }
+  .links {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    background-color: var(--dark-accent);
+    padding: 20px;
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: all 0.3s ease;
+  }
+  .links.scrolled {
+    background: rgba(15, 23, 42, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  .links a {
+    text-decoration: none;
+    color: var(--dark-bg);
+    padding: 5px;
+  }
+  .links.scrolled a {
+    background: var(--dark-accent);
+    color: var(--dark-bg);
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  .links a:hover {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+    border: 1px solid var(--dark-muted);
+  }
+  .hero-section {
+    margin-top: 60px;
+    flex-direction: row-reverse;
+  }
+  #profile-picture {
+    height: 500px;
+    width: 400px;
+    margin-left: 10px;
+  }
+  .project-1 {
+    width: 500px;
+  }
+  .pro-img img {
+    width: 500px;
+    object-fit: cover;
+    align-items: center;
+  }
+  .skill-icons {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .icons i {
+    font-size: 30px;
+  }
+  .batch-imgs {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .batch-imgs img {
+    width: 300px;
+  }
+  .cert-section img {
+    height: 400px;
+  }
+  .cv {
+    width: 80px;
+    height: 80px;
+    font-size: 24px;
+  }
+  .project-1,
+  .project-2,
+  .project-3 {
+    width: 500px;
+  }
+}
+/* Desktop - 769px and up */
+@media (min-width: 769px) {
+}
+
+/* Large Desktop - 1025px and up */
+@media (min-width: 1025px) {
 }
