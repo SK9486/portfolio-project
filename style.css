@@ -442,7 +442,48 @@ nav i {
 .contact-section {
   background-color: transparent;
   background-color: var(--dark-card);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.contact-section li {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+}
+.contact-section a {
+  text-decoration: none;
+  background-color: var(--dark-accent);
+  color: var(--dark-bg);
+}
+.up-icon {
+  position: relative;
+  bottom: 5px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+  /* font-size: 14px; */
+  background-color: var(--dark-bg);
+  padding: 20px;
+  border-radius: 100%;
+  border: 2px solid var(--dark-accent);
+  color: var(--dark-text);
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 footer {
-  background-color: var(--dark-muted);
+  background-color: var(--dark-accent);
+  color: var(--dark-bg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 5px;
+}
+footer span {
+  background-color: var(--dark-bg);
+  color: var(--dark-text);
+  padding: 2px;
+  font-weight: 700;
 }
