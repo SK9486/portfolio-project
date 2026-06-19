@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Santhosh Portfolio</title>
+    <meta
+      name="description"
+      content="Santhosh Kumar V - Full Stack JavaScript Developer"
+    />
+
+    <title>Santhosh Kumar V | Portfolio</title>
     <!-- css stylesheet -->
     <link rel="stylesheet" href="./style.css" />
     <!-- fonts -->
@@ -22,6 +27,7 @@
   <body>
     <nav>
       <button id="menu-btn"><i class="fa-solid fa-bars"></i></button>
+
       <div id="sidebar">
         <i class="fa-solid fa-x" id="close-btn"></i>
         <a href="#projects" id="fst-menu-link">Project</a>
@@ -79,7 +85,7 @@
             <h2>Reddit Client Application</h2>
             <p>Frontend application inspired by Reddit</p>
             <h3>Key Features</h3>
-            <ol>
+            <ol id="key-features">
               <li>Component-based architecture</li>
               <li>Centralized state management</li>
               <li>Responsive UI design</li>
@@ -98,53 +104,66 @@
             </ul>
           </div>
         </div>
-        <div class="project-1">
+        <div class="project-2">
           <div class="pro-img">
-            <img src="/src/projects/project-1.png" />
+            <img src="/src/projects/project2.webp" />
           </div>
           <div class="pro-desc">
-            <h2>Reddit Client Application</h2>
-            <p>Frontend application inspired by Reddit</p>
+            <h2>E-Commerce REST API</h2>
+
+            <p>
+              A backend API for managing products, users, orders, and
+              authentication.
+            </p>
+
             <h3>Key Features</h3>
             <ol>
-              <li>Component-based architecture</li>
-              <li>Centralized state management</li>
-              <li>Responsive UI design</li>
-              <li>Git version control</li>
+              <li>JWT-based authentication and authorization</li>
+              <li>CRUD operations for products and orders</li>
+              <li>Secure user registration and login</li>
+              <li>RESTful API design with database integration</li>
             </ol>
+
             <ul class="icons">
-              <li><i class="fa-brands fa-html5"></i></li>
-              <li><i class="fa-brands fa-css3-alt"></i></li>
-              <li><i class="fa-brands fa-js"></i></li>
-              <li><i class="fa-brands fa-react"></i></li>
-              <li><i class="fa-solid fa-vials"></i></li>
+              <li><i class="fa-brands fa-node-js"></i></li>
+              <li><i class="fa-solid fa-server"></i></li>
+              <li><i class="fa-solid fa-database"></i></li>
+              <li><i class="fa-solid fa-key"></i></li>
+              <li><i class="fa-brands fa-git-alt"></i></li>
             </ul>
+
             <ul class="pro-buts">
-              <li class="git-repo"><a href="#">git-repo</a></li>
-              <li class="live-project"><a href="#">live-project</a></li>
+              <li class="git-repo"><a href="#">GitHub Repo</a></li>
+              <li class="live-project"><a href="#">API Docs</a></li>
             </ul>
           </div>
         </div>
-        <div class="project-1">
+        <div class="project-3">
           <div class="pro-img">
-            <img src="/src/projects/project-1.png" />
+            <img src="/src/projects/project3.png" />
           </div>
           <div class="pro-desc">
-            <h2>Reddit Client Application</h2>
-            <p>Frontend application inspired by Reddit</p>
+            <h2>Task Management Platform</h2>
+
+            <p>
+              A full-stack platform for managing tasks, tracking progress, and
+              team collaboration.
+            </p>
+
             <h3>Key Features</h3>
-            <ol>
-              <li>Component-based architecture</li>
-              <li>Centralized state management</li>
-              <li>Responsive UI design</li>
-              <li>Git version control</li>
-            </ol>
+            <o id="key-features">
+              <li>Create, assign, update, and delete tasks</li>
+              <li>Role-based authentication and authorization</li>
+              <li>Project progress tracking with status updates</li>
+              <li>Responsive dashboard for seamless team collaboration</li>
+            </o>
+
             <ul class="icons">
-              <li><i class="fa-brands fa-html5"></i></li>
-              <li><i class="fa-brands fa-css3-alt"></i></li>
-              <li><i class="fa-brands fa-js"></i></li>
               <li><i class="fa-brands fa-react"></i></li>
-              <li><i class="fa-solid fa-vials"></i></li>
+              <li><i class="fa-brands fa-js"></i></li>
+              <li><i class="fa-brands fa-node-js"></i></li>
+              <li><i class="fa-solid fa-database"></i></li>
+              <li><i class="fa-brands fa-git-alt"></i></li>
             </ul>
             <ul class="pro-buts">
               <li class="git-repo"><a href="#">git-repo</a></li>
@@ -387,7 +406,14 @@
     </div>
     <footer>
       <p>Copyright 2026 <a href="https://github.com/SK9486">@SK9486</a></p>
-      <p>Made with ❤️ in <span>Neyveli</span></p>
+      <p>
+        Made with ❤️ in
+        <span
+          ><a href="https://www.google.com/maps/search/Neyveli%2C+India/?hl=en"
+            >Neyveli</a
+          ></span
+        >
+      </p>
     </footer>
   </body>
   <script src="./script.js"></script>

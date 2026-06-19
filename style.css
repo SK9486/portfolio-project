@@ -275,6 +275,13 @@ nav i {
     0 0 15px rgba(56, 189, 248, 0.3),
     0 0 30px rgba(56, 189, 248, 0.15);
 }
+.project-1,
+.project-2,
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
 .projects h2 {
   display: inline;
   background-color: var(--dark-muted);
@@ -502,6 +509,10 @@ footer span {
   color: var(--dark-text);
   padding: 2px;
   font-weight: 700;
+}
+footer span a {
+  text-decoration: none;
+  color: var(--dark-text);
 }
 
 /* Tablet - 481px and up */
@@ -898,5 +909,9 @@ footer span {
   }
   .contact-section {
     width: 100vw;
+  }
+  .hero-desc {
+    width: 100%;
+    max-width: 1000px;
   }
 }
