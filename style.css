@@ -492,7 +492,7 @@ footer span {
 }
 
 /* Tablet - 481px and up */
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 481px) {
   .fira-code-h1,
   h1 {
     font-size: 32px;
@@ -521,6 +521,10 @@ footer span {
   }
   #menu-btn {
     display: none;
+  }
+  .hero-desc {
+    width: 50%;
+    max-width: 600px;
   }
   .links {
     display: flex;
@@ -562,8 +566,7 @@ footer span {
     flex-direction: row-reverse;
   }
   #profile-picture {
-    height: 500px;
-    width: 400px;
+    width: 300px;
     margin-left: 10px;
   }
   .project-1 {
@@ -605,6 +608,108 @@ footer span {
 }
 /* Desktop - 769px and up */
 @media (min-width: 769px) {
+  .fira-code-h1,
+  h1 {
+    font-size: 48px;
+  }
+
+  .fira-code-h2,
+  h2 {
+    font-size: 36px;
+  }
+
+  .source-code-pro-para,
+  h3 {
+    font-size: 24px;
+  }
+
+  .source-code-pro-small-para,
+  p,
+  h4 {
+    font-size: 18px;
+  }
+
+  .fira-code-button,
+  a,
+  button {
+    font-size: 16px;
+  }
+  .project-section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .skills {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .batch-section {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .cv {
+    width: 100px;
+    height: 100px;
+    font-size: 32px;
+  }
+  .pro-img img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+  }
+  .batch-imgs img {
+    width: 250px;
+  }
+  .contact-section {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  .cert-section img {
+    height: 500px;
+  }
+  .hero-desc {
+    width: 70%;
+    max-width: 600px;
+  }
+  #profile-picture {
+    width: 400px;
+    margin-left: 10px;
+  }
+  .project-1,
+  .project-2,
+  .project-3 {
+    width: 400px;
+  }
+  .pro-img img {
+    width: 400px;
+    object-fit: cover;
+    align-items: center;
+  }
+  .skill-icons i {
+    font-size: 36px;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+  }
+  .skill-icons {
+    grid-template-columns: repeat(5, 1fr);
+  }
+  .batch-imgs {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .links {
+    padding: 25px;
+  }
+  .hero-section {
+    margin-top: 70px;
+  }
+  body {
+    background-color: red;
+  }
 }
 
 /* Large Desktop - 1025px and up */
