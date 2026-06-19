@@ -4,8 +4,6 @@ const closeBtn = document.getElementById("close-btn");
 const navbar = document.querySelector(".links");
 const gotoTop = document.getElementById("up-icon");
 const cvButn = document.getElementById("cv-but");
-const themeBtn = document.getElementById("theme-btn");
-
 menuBtn.addEventListener("click", () => {
   sidebar.classList.toggle("active");
   menuBtn.classList.add("hidden");
