@@ -3,7 +3,6 @@
 A modern, responsive, and interactive portfolio website showcasing my skills, projects, and experience as a Full-Stack JavaScript Developer.
 
 ![Portfolio Preview](https://img.shields.io/badge/Status-Active-brightgreen)
-![License](https://img.shields.io/badge/License-MIT-blue)
 ![Version](https://img.shields.io/badge/Version-1.0.0-orange)
 
 ---
@@ -185,7 +184,7 @@ Edit the following in `index.html`:
 
 ## 🔗 Live Demo
 
-🌐 **Visit the live portfolio:** [Your Portfolio URL]
+🌐 **Visit the live portfolio:** [[Portfolio URL](https://portfolio-project-0uuw.onrender.com)]
 
 ---
 
@@ -242,12 +241,6 @@ This is a personal portfolio project, but feel free to:
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
 ## 👤 Author
 
 **Santhosh Kumar V**
@@ -265,7 +258,7 @@ Have a project in mind? Let's collaborate!
 
 - Email me: [santhoshkumar.v.dev@gmail.com](mailto:santhoshkumar.v.dev@gmail.com)
 - Call me: [+91 8825909129](tel:8825909129)
-- Visit: [Portfolio Website](https://your-portfolio-url.com)
+- Visit: [Portfolio Website]([https://your-portfolio-url.com](https://portfolio-project-0uuw.onrender.com))
 
 ---
 
